@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:  #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+:root {
+    font-size: 62.5%;
+}
+header{
+    width: 112rem;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 11.5rem;
+    margin-bottom: 8rem;
+    align-items: center;
+}
+header img.star{
+    margin-right: 29.4rem;
+    width: 18.6rem;
+    height: 3.2rem;
+}
+header .inputs-header{
+    display: flex;
+    gap: .8rem;
+}
+
+header .inputs-header input{
+    width: 46.2rem;
+    height: 4.8rem;
+    background:   #06181C;
+    padding: 1.6rem;
+    border: none;
+    border-radius: .5rem;
+    color: white;
+}
+
+header .inputs-header button{
+    height: 4.8rem;
+    width: 17.0rem;
+    border-radius: .5rem;
+    background: #065E7C;
+    border: none;
+    color: white;
+
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    display: flex;
+    cursor: pointer;
+}
+
+.inputs-header button:hover{
+    background: #04445a;
+}
+
+/* Table ///////////////////////////////////////*/
+table {
+    width: 112.0rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    border: 1px solid #4A808C;
+}
+
+table thead{
+    background: #092D38;
+    color: white;
+    height: 6.5rem;
+    display: flex;
+    
+}
+
+thead tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 112.0rem;
+}
+tr .usuario-th{
+    width: 40.4rem;
+    display: flex;
+    margin-left: 4rem;
+    padding-left: 3rem;
+}
+
+tr th{
+    font-size: 2rem;
+}
+
+th:nth-child(4){
+    margin-right: 9rem;
+}
+
+/* tbody{
+    background: rgba(6, 22, 27, 0.5);
+    border: 1px solid #092D38;
+    border-radius: 0 0 1rem 1rem;
+    color: white;
+    height: 6.5rem;
+    display: flex;
+    
+} */
+
+tbody tr{
+    background: rgba(6, 22, 27, 0.5);
+    border: 1px solid #092D38;
+    
+    color: white;
+    height: 6.5rem;
+    display: flex;
+}
+
+tbody img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+tbody tr{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+tbody tr{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 112rem;
+}
+
+tr .user-img{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+
+    font-size: 1.6rem;
+
+
+    width: 37.4rem;
+}
+.user-img a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+tbody .user-repositories{
+    
+    font-size: 1.6rem;
+}
+
+tbody .user-followers{
+    
+    font-size: 1.6rem;
+}
+
+.user-button button{
+    border: none;
+    background: none;
+    font-size: 1.6rem;
+    color: #F75A68;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.user-button button:hover{
+    scale: 1.1;
+}
